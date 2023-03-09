@@ -1,6 +1,10 @@
 {
   "name": "instarecipes",
   "version": "0.0.0",
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=12.0.0 <13.0.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config src/proxy.config.json",

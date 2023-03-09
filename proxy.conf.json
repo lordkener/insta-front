@@ -1,18 +1,18 @@
 {
   "/api/*": {
-      "target": "https://localhost:8443/",
+      "target": "https://instarecipes.osc-fr1.scalingo.io/",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
     },
     "/images/*": {
-      "target": "https://localhost:8443/",
+      "target": "https://instarecipes.osc-fr1.scalingo.io/",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
     },
     "//*": {
-      "target": "https://localhost:8443/",
+      "target": "https://instarecipes.osc-fr1.scalingo.io/",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
